@@ -80,13 +80,18 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 .vod .more-verses .mv-item:first-child{margin-top:0}
 .vod .more-verses blockquote{border:0;background:none;margin:0;padding:0;font-size:clamp(1.05rem,4.2vw,1.25rem);line-height:1.5;color:#fff;font-style:italic;text-align:inherit}
 .vod .more-verses .ref{margin:10px 0 0}
-.mv-js .mv-item{display:none}
-.mv-js .mv-item.mv-show{display:block;animation:mvIn .6s ease both}
+.mv-on .mv-item[hidden]{display:none}
+.mv-on .mv-item.mv-show{display:block;animation:mvIn .5s ease both}
+.mv-on .more-verses{margin:0;padding:0}.mv-on .more-verses .mv-item{border:0;margin:0;padding:0}
 .mv-item:focus{outline:none}
-@keyframes mvIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-.mv-btn{display:inline-block;margin-top:16px;padding:10px 20px;min-height:44px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.14);color:#fff;font:500 15px system-ui,sans-serif;cursor:pointer;transition:background .2s}
-.mv-btn:hover,.mv-btn:focus-visible{background:rgba(255,255,255,.26);outline:2px solid rgba(255,255,255,.6);outline-offset:2px}
-@media (prefers-reduced-motion:reduce){.mv-js .mv-item.mv-show{animation:none}}
+@keyframes mvIn{from{opacity:0}to{opacity:1}}
+.mv-lbl{margin:14px 0 0;font:13px system-ui,sans-serif;color:#d9d2f2;text-align:center}
+.mv-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:8px}
+.mv-btn{min-height:44px;min-width:44px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;font:500 14px system-ui,sans-serif;cursor:pointer}
+.mv-btn[aria-pressed="true"]{background:rgba(255,255,255,.9);color:#263347}
+.mv-btn:disabled{opacity:.35;cursor:default}
+.mv-btn:focus-visible{outline:2px solid rgba(255,255,255,.7);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.mv-on .mv-item.mv-show{animation:none}}
 /* Oración guiada (audio) */
 .guia{margin:18px auto 0;max-width:420px;text-align:center}
 .guia-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:10px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.45);background:rgba(15,20,40,.45);color:#fff;font:500 16px system-ui,sans-serif;cursor:pointer}
