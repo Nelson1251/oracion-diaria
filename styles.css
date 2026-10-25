@@ -43,3 +43,15 @@ footer{color:#6f6253}
 .carga blockquote{font-size:1.2rem;line-height:1.5;margin:0 0 4px}.carga details summary{cursor:pointer;font:600 15px system-ui,sans-serif;color:var(--acc);padding:10px 0;min-height:44px}
 .hero nav a{background:rgba(42,36,64,.55);color:#fff;border-color:rgba(246,213,142,.4)}
 .vdl{margin:0 0 10px;font:600 13px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#f6d58e}
+/* Calm predomina: azules de anochecer, lavanda, arena */
+:root{--acc:#3d4f7a;--gold:#9a8cc4;--mute:#5f6478}
+body{background:linear-gradient(180deg,#1d2b4a 0,#34477a 20%,#7d78b0 42%,#c9bfd9 62%,#efe7dc 80%,#f4eee6 100%) fixed}
+.brand{color:#e4def5}.hero h1{font-size:clamp(2.6rem,11vw,4rem);margin-top:30px}
+.vod{border-color:rgba(228,222,245,.35)}.vod figcaption,.vdl{color:#d9d2f2}
+.promise{max-width:28em;margin:0 auto 12px;opacity:.95}.burdens{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:22px}
+.burdens a{font:15px system-ui,sans-serif;color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);min-height:40px}
+.cta{background:linear-gradient(180deg,#f3ece2,#dcd3ea);color:#1d2b4a;box-shadow:0 6px 24px rgba(29,43,74,.35)}
+.hero nav a{background:rgba(29,43,74,.5);border-color:rgba(228,222,245,.35)}
+blockquote{background:#f1eef8;border-left-color:#9a8cc4}.action,.pray{background:#e9edf6}.carga{background:#fbf9fd;scroll-margin-top:16px}
+.beads span{border-color:#7d78b0}.beads .on,.bar div{background:#7d78b0}h3{color:#6f66a8}
+.night{background:linear-gradient(180deg,#1d2b4a,#2f3e6b)}.night h2{color:#d9d2f2}
