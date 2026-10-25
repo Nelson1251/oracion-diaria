@@ -1,0 +1,39 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oración Diaria: devocional, rosario y oraciones en español</title>
+<meta name="description" content="Devocional diario de cinco minutos, oraciones para la mañana, el trabajo y la noche, rosario guiado y oración para dormir. En español, para ti.">
+<meta name="theme-color" content="#f6f1e7"><link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>">
+</head><body>
+<a class="skip" href="#hoy">Saltar al contenido</a>
+<header class="top"><h1>🕊️ Oración Diaria</h1><p>Unos minutos con Dios, cada día, en tu idioma.</p>
+<nav aria-label="Secciones"><a href="#hoy">Devocional</a><a href="#cortas">Oraciones</a><a href="#rosario">Rosario</a><a href="#dormir">Para dormir</a><a href="#lista">Lista de espera</a></nav></header>
+<main>
+<section id="hoy" class="card"><p class="kicker" id="dayname"></p><h2 id="dtitle">Devocional de hoy</h2>
+<blockquote id="dverse"></blockquote><p class="ref" id="dref"></p>
+<h3>Reflexión</h3><div id="drefl"></div><h3>Oración</h3><p id="dprayer"></p>
+<div class="action"><strong>Para hoy:</strong> <span id="daction"></span></div>
+<div class="days" role="group" aria-label="Elegir día" id="daybtns"></div></section>
+<section id="cortas" class="card"><h2>Oraciones cortas</h2>
+<div class="tabs" role="tablist"><button role="tab" data-t="am" aria-selected="true">☀️ Mañana</button><button role="tab" data-t="work" aria-selected="false">🛠️ Trabajo</button><button role="tab" data-t="night" aria-selected="false">🌙 Noche</button></div>
+<p id="short" class="big" aria-live="polite"></p></section>
+<section id="rosario" class="card"><h2>📿 Rosario guiado</h2><p>Hoy tocan los <strong id="rmist"></strong>. Si no tienes rosario, cuenta con los dedos. Si no te alcanza el tiempo, reza un solo misterio: también vale.</p>
+<label>Misterios: <select id="rsel"><option value="gozosos">Gozosos (lunes y sábado)</option><option value="dolorosos">Dolorosos (martes y viernes)</option><option value="gloriosos">Gloriosos (miércoles y domingo)</option><option value="luminosos">Luminosos (jueves)</option></select></label>
+<div class="rbox"><p class="kicker" id="rstep"></p><h3 id="rname"></h3><p id="rmed" class="med"></p><p id="rtext" aria-live="polite"></p>
+<div class="beads" id="beads" aria-hidden="true"></div>
+<div class="rnav"><button id="rprev">Atrás</button><button id="rnext" class="primary">Siguiente</button></div>
+<div class="bar"><div id="rbar"></div></div></div></section>
+<section id="dormir" class="card night"><h2>🌙 Oración para dormir</h2>
+<blockquote>En paz me acostaré, y asimismo dormiré; porque solo tú, Jehová, me harás estar confiado.</blockquote><p class="ref">Salmos 4:8 (Reina-Valera 1909)</p>
+<p>Respira despacio. Suelta los hombros. Deja el teléfono a un lado.</p>
+<p>Señor, aquí termino este día. Te entrego lo que hice bien y lo que me salió mal. Te entrego las cuentas, los pendientes y las preocupaciones que no puedo resolver esta noche. Cuida a mi familia, a los que duermen cerca y a los que duermen lejos. Pon tu paz en mi casa y en mi corazón. Que mi cuerpo descanse y mi mente se calme. Mañana, si tú quieres, me levantaré con fuerzas nuevas. En tus manos me duermo. Amén.</p>
+<p class="small">Ángel de mi guarda, dulce compañía, no me desampares ni de noche ni de día. Amén.</p></section>
+<section id="lista" class="card"><h2>Únete a la lista de espera</h2><p>Pronto podrás recibir el devocional cada mañana. Déjanos tu correo y te avisamos cuando esté listo.</p>
+<form action="https://formsubmit.co/ijcs1251@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Nueva persona en la lista de espera: Oración Diaria"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://nelson1251.github.io/oracion-diaria/gracias.html"><input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<label for="email">Tu correo electrónico</label><input id="email" type="email" name="email" required autocomplete="email" placeholder="tucorreo@ejemplo.com">
+<button class="primary" type="submit">Avísame</button></form>
+<p class="small">Solo usamos tu correo para avisarte del lanzamiento. No lo vendemos ni lo compartimos. Puedes pedir que lo borremos cuando quieras. <a href="privacidad.html">Aviso de privacidad</a>.</p></section>
+</main>
+<footer><p>Versículos: Reina-Valera 1909 (dominio público). Oraciones tradicionales de la Iglesia. Reflexiones escritas para Oración Diaria.</p><p><a href="privacidad.html">Privacidad</a> · ijcs1251@gmail.com</p></footer>
+<script src="data.js"></script><script src="rosario.js"></script><script src="app.js"></script></body></html>
