@@ -6,12 +6,13 @@ function showDay(i){di=i;const d=DAYS[i];$("dayname").textContent=W[i]+" · Día
 $("dverse").textContent="“"+d.verse+"”";$("dref").textContent=d.ref;$("drefl").innerHTML="";
 d.refl.forEach(p=>{const e=document.createElement("p");e.textContent=p;$("drefl").appendChild(e)});
 $("dprayer").textContent=d.prayer;$("daction").textContent=d.action;
-[...$("daybtns").children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i));$("hverse").textContent="“"+d.verse+"”";$("href").textContent=d.ref;showShort()}
+[...$("daybtns").children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i));showShort()}
 W.forEach((w,i)=>{const b=document.createElement("button");b.textContent=w.slice(0,3);b.setAttribute("aria-label",w);b.onclick=()=>showDay(i);$("daybtns").appendChild(b)});
 function showShort(){$("short").textContent=DAYS[di][tab]}
 document.querySelectorAll("[role=tab]").forEach(b=>b.onclick=()=>{tab=b.dataset.t;document.querySelectorAll("[role=tab]").forEach(x=>x.setAttribute("aria-selected",x===b));showShort()});
 const h=new Date().getHours();tab=h<11?"am":h<18?"work":"night";document.querySelectorAll("[role=tab]").forEach(x=>x.setAttribute("aria-selected",x.dataset.t===tab));
 showDay(di);
+{const n=new Date(),doy=Math.floor((new Date(n.getFullYear(),n.getMonth(),n.getDate())-new Date(n.getFullYear(),0,1))/864e5),v=VDIA[doy%VDIA.length];$("hverse").textContent="“"+v.v+"”";$("href").textContent=v.r;$("vtopic").textContent=v.t;}
 // Rosario
 let steps=[],si=0;
 function build(key){const m=MIST[key];steps=[];const P=(k,o)=>steps.push(Object.assign({k},o||{}));
