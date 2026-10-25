@@ -75,4 +75,4 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 .vod{background:rgba(15,20,40,.42);backdrop-filter:none}
 .hero .cta{text-shadow:none}.hero .promise,.hero .lead{background:rgba(15,20,40,.42)}
 /* Móvil: venados visibles abajo, entre los botones de temas */
-@media (max-width:700px){.hero:not(.mini){background-size:auto 135%;background-position:44% 0}}
+@media (max-width:700px){.hero:not(.mini){background-size:auto 135%;background-position:64% 0}}
