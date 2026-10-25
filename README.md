@@ -3,8 +3,8 @@
 Sitio estático (HTML, CSS, JS) en GitHub Pages.
 
 ## Créditos de imagen
-- Fondo `img/lago-*.webp`: "Ehrenbach, deer family", foto de Gerda Arendt (Ehrenbach, Alemania).
-  - Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Ehrenbach,_deer_family.jpg
+- Fondo `img/lago-*.webp`: "Peaceful mountain lake", foto de Héctor J. Rivas (Unsplash: https://unsplash.com/photos/8UduFQnQ718).
+  - Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Peaceful_mountain_lake_(Unsplash).jpg
   - Licencia CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
 - Música de fondo `audio/fondo.mp3`: original, sintetizada para este sitio (sin licencias de terceros).
 
