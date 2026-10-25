@@ -1,0 +1,3 @@
+(function(){var c=document.querySelector(".more-verses");if(!c)return;var it=c.querySelectorAll(".mv-item");if(!it.length)return;c.classList.add("mv-js");var i=0;
+function btn(){if(i>=it.length)return;var b=document.createElement("button");b.type="button";b.className="mv-btn";b.textContent="Versículo "+(i+2);var id="mv"+i;it[i].id=id;b.setAttribute("aria-controls",id);b.setAttribute("aria-expanded","false");
+b.onclick=function(){var el=it[i];el.classList.add("mv-show");b.setAttribute("aria-expanded","true");b.remove();i++;btn();el.setAttribute("tabindex","-1");el.focus({preventScroll:true})};c.appendChild(b)}btn()})();
