@@ -3,8 +3,8 @@
 Sitio estático (HTML, CSS, JS) en GitHub Pages.
 
 ## Créditos de imagen
-- Fondo `img/lago-*.webp`: "Cows on Braies lake", foto de Sovierof (lago de Braies, Dolomitas, Italia).
-  - Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Cows_on_Braies_lake.jpg
+- Fondo `img/lago-*.webp`: "Ehrenbach, deer family", foto de Gerda Arendt (Ehrenbach, Alemania).
+  - Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Ehrenbach,_deer_family.jpg
   - Licencia CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
 - Música de fondo `audio/fondo.mp3`: original, sintetizada para este sitio (sin licencias de terceros).
 
