@@ -6,7 +6,7 @@ function showDay(i){di=i;const d=DAYS[i];$("dayname").textContent=W[i]+" · Día
 $("dverse").textContent="“"+d.verse+"”";$("dref").textContent=d.ref;$("drefl").innerHTML="";
 d.refl.forEach(p=>{const e=document.createElement("p");e.textContent=p;$("drefl").appendChild(e)});
 $("dprayer").textContent=d.prayer;$("daction").textContent=d.action;
-[...$("daybtns").children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i));showShort()}
+[...$("daybtns").children].forEach((b,j)=>b.setAttribute("aria-pressed",j===i));$("hverse").textContent="“"+d.verse+"”";$("href").textContent=d.ref;showShort()}
 W.forEach((w,i)=>{const b=document.createElement("button");b.textContent=w.slice(0,3);b.setAttribute("aria-label",w);b.onclick=()=>showDay(i);$("daybtns").appendChild(b)});
 function showShort(){$("short").textContent=DAYS[di][tab]}
 document.querySelectorAll("[role=tab]").forEach(b=>b.onclick=()=>{tab=b.dataset.t;document.querySelectorAll("[role=tab]").forEach(x=>x.setAttribute("aria-selected",x===b));showShort()});
