@@ -19,3 +19,4 @@ select{padding:8px;border-radius:10px;margin:6px 0 12px;max-width:100%}.rbox{bor
 form{display:grid;gap:8px}input[type=email]{padding:12px;border:1px solid #cfc4b0;border-radius:12px;min-height:48px}
 .small{font-size:.85rem;color:var(--mute)}footer{text-align:center;font:14px system-ui,sans-serif;color:var(--mute);padding:10px 16px 40px}a{color:var(--acc)}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+.cargas{display:grid;gap:10px}.carga{border:1px solid #e6dcc8;border-radius:14px;padding:4px 14px;background:#fffaf0}.carga summary{cursor:pointer;font:600 17px system-ui,sans-serif;color:var(--acc);padding:10px 0;min-height:44px}.carga[open]{padding-bottom:12px}.pray{background:#eaf2ee;border-radius:10px;padding:10px 12px}
