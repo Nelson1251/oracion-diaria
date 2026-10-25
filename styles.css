@@ -39,3 +39,5 @@ blockquote{border-left-color:var(--gold);background:#fbf2e1}.action,.pray{backgr
 .night{background:linear-gradient(180deg,#24203a,#3b2f4f);color:#f1ecf7}.night .intro{color:#cfc3dd}
 .carga{background:#fffaf1}.hero.mini{padding:22px}.sub main{padding-top:0}
 footer{color:#6f6253}
+.carga{padding:16px 16px 10px}.ct{margin:0 0 8px;text-transform:none;letter-spacing:0;font-size:1.1rem;color:var(--acc)}
+.carga blockquote{font-size:1.2rem;line-height:1.5;margin:0 0 4px}.carga details summary{cursor:pointer;font:600 15px system-ui,sans-serif;color:var(--acc);padding:10px 0;min-height:44px}
