@@ -87,3 +87,10 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 .mv-btn{display:inline-block;margin-top:16px;padding:10px 20px;min-height:44px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.14);color:#fff;font:500 15px system-ui,sans-serif;cursor:pointer;transition:background .2s}
 .mv-btn:hover,.mv-btn:focus-visible{background:rgba(255,255,255,.26);outline:2px solid rgba(255,255,255,.6);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.mv-js .mv-item.mv-show{animation:none}}
+/* Oración guiada (audio) */
+.guia{margin:18px auto 0;max-width:420px;text-align:center}
+.guia-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:10px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.45);background:rgba(15,20,40,.45);color:#fff;font:500 16px system-ui,sans-serif;cursor:pointer}
+.guia-btn:focus-visible{outline:2px solid rgba(255,255,255,.7);outline-offset:2px}
+.guia-ic{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.9);color:#263347;display:inline-flex;align-items:center;justify-content:center;font-size:12px}
+.guia-t{font-size:13px;opacity:.8}
+.guia-bar{height:3px;margin:10px 24px 0;background:rgba(255,255,255,.2);border-radius:3px;overflow:hidden}.guia-bar i{display:block;height:100%;width:0;background:#fff;transition:width .3s linear}
