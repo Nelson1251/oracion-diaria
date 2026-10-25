@@ -62,3 +62,6 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 @media (min-width:701px){.hero:not(.mini){background-image:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.62) 45%,rgba(70,66,118,.7) 82%,rgba(244,238,230,0) 100%),url(img/lago-1280.webp)}}
 @media (min-width:1401px){.hero:not(.mini){background-image:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.62) 45%,rgba(70,66,118,.7) 82%,rgba(244,238,230,0) 100%),url(img/lago-1920.webp)}}
 .vod{background:rgba(20,28,55,.38)}
+.tema .hero h1{font-size:clamp(2rem,9vw,3rem)}.back{color:#fff;font:600 16px system-ui,sans-serif;text-decoration:none;display:inline-block;padding:10px 16px;border-radius:999px;background:rgba(20,28,55,.4);border:1px solid rgba(255,255,255,.3)}
+.vod .ref{color:#d9d2f2;margin-top:10px}.vod .small{color:#e8e3f6}.big-verse{font-size:clamp(1.35rem,5.5vw,1.8rem)!important;line-height:1.45;color:#fff;font-style:italic}
+.otros{text-align:center;margin:8px 0 16px}.otros p{font:14px system-ui,sans-serif;color:var(--mute);margin:0 0 8px}.otros a{display:inline-block;margin:4px;padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid #d6d0e6;color:var(--acc);text-decoration:none;font:15px system-ui,sans-serif}
