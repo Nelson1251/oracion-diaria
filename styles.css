@@ -99,3 +99,7 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 .guia-ic{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.9);color:#263347;display:inline-flex;align-items:center;justify-content:center;font-size:12px}
 .guia-t{font-size:13px;opacity:.8}
 .guia-bar{height:3px;margin:10px 24px 0;background:rgba(255,255,255,.2);border-radius:3px;overflow:hidden}.guia-bar i{display:block;height:100%;width:0;background:#fff;transition:width .3s linear}
+/* Inicio: botones a cada sección */
+.secciones{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;max-width:560px;margin:20px auto 0}
+.secciones a{display:flex;align-items:center;justify-content:center;min-height:52px;padding:10px 14px;border-radius:16px;background:rgba(15,20,40,.42);border:1px solid rgba(255,255,255,.35);color:#fff;text-decoration:none;font:500 15px system-ui,sans-serif;text-align:center}
+.secciones a:hover,.secciones a:focus-visible{background:rgba(15,20,40,.6)}

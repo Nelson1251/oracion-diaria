@@ -1,5 +1,5 @@
 (function(){
-const $=id=>document.getElementById(id), N=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const $=id=>document.getElementById(id)||document.createElement("div"), N=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
 const today=new Date().getDay(); const W=["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
 let di=(today+6)%7, tab="am";
 function showDay(i){di=i;const d=DAYS[i];$("dayname").textContent=W[i]+" · Día "+(i+1);$("dtitle").textContent=d.title;
