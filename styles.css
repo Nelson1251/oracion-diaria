@@ -107,3 +107,4 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 footer{max-width:640px;margin:16px auto 24px;padding:16px 18px 20px;border-radius:16px;background:rgba(20,30,55,.72);color:#f1ede6!important;text-shadow:none}
 footer a{color:#fff!important;text-decoration:underline}
 .cta-wrap{display:flex;justify-content:center;margin:28px 0 32px}.cta-wrap .cta{margin:0 auto}
+.donar-opciones{display:grid;gap:12px;margin:22px 0 14px;text-align:center}.donar-opciones .cta{display:block}.donar-opciones .otra{background:transparent;border:2px solid var(--acc);color:var(--acc);box-shadow:none}
