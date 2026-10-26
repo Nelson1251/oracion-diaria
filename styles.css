@@ -103,3 +103,6 @@ background:linear-gradient(180deg,rgba(22,32,58,.72) 0,rgba(36,48,88,.66) 45%,rg
 .secciones{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;max-width:560px;margin:20px auto 0}
 .secciones a{display:flex;align-items:center;justify-content:center;min-height:52px;padding:10px 14px;border-radius:16px;background:rgba(15,20,40,.42);border:1px solid rgba(255,255,255,.35);color:#fff;text-decoration:none;font:500 15px system-ui,sans-serif;text-align:center}
 .secciones a:hover,.secciones a:focus-visible{background:rgba(15,20,40,.6)}
+/* Pie legible sobre cualquier fondo */
+footer{max-width:640px;margin:16px auto 24px;padding:16px 18px 20px;border-radius:16px;background:rgba(20,30,55,.72);color:#f1ede6!important;text-shadow:none}
+footer a{color:#fff!important;text-decoration:underline}
