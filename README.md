@@ -10,3 +10,5 @@ Sitio estático (HTML, CSS, JS) en GitHub Pages.
 
 ## Textos
 Versículos: Versión Biblia Libre, © 2018-2020 Jonathan Gallagher y Shelly Barrios de Avila, https://ebible.org/find/details.php?id=spavbl, licencia CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Se omitieron los títulos de algunos Salmos. Oraciones tradicionales. Reflexiones originales.
+
+English mode (toggle ES | EN, saved in localStorage, or ?lang=en): Bible verses from the World English Bible (WEB), public domain, https://ebible.org/web/. Quotations are excerpts and may be shortened or lightly adjusted in punctuation. Guided audios are Spanish only. The translation lives in i18n.js and i18n-data.js.
