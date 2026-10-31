@@ -111,3 +111,10 @@ footer a{color:#fff!important;text-decoration:underline}
 
 /* Apoya Oración Diaria: tarjeta suave al final de cada tema */
 .donar-card{text-align:center}.donar-card p{margin:0 0 14px;color:var(--mute);font-style:italic}.donar-card .cta{font-size:16px;padding:12px 26px}
+
+/* Botón dorado arriba a la derecha, a la izquierda del selector ES/EN */
+.hero{position:relative}
+.donar-top{position:absolute;top:6px;right:98px;z-index:50;display:inline-block;white-space:nowrap;background:linear-gradient(180deg,#f2c46d,#d1902f);color:#2c1d08;font:600 13px/1 system-ui,sans-serif;text-decoration:none;text-shadow:none;padding:9px 14px;border-radius:999px;box-shadow:0 3px 12px rgba(209,144,47,.5);min-height:32px;display:inline-flex;align-items:center}
+.donar-top:hover{filter:brightness(1.07)}.donar-top:focus-visible{outline:3px solid #fff;outline-offset:2px}
+@media (max-width:700px){.hero,.hero.mini{padding-top:48px}}
+@media (min-width:701px){.donar-top{top:12px;right:110px;font-size:15px;padding:11px 18px;min-height:38px}}
